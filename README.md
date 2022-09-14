@@ -2,7 +2,7 @@
 
 ### Installation
 
-1. To use Slice Tab Mods you will be needing the tampermonkey extension. You can get tampermonkey for chromium based browsers at: https://chrome.google.com/webstore/detail/tampermonkey-beta/gcalenpjmijncebpfijmoaglllgpjagf?hl=nl and for firefox at: https://addons.mozilla.org/nl/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search (Currently useless because Slice Tab only supports chromium atm).
+1. To use Slice Tab Mods you will be needing the tampermonkey extension. You can get tampermonkey for chromium based browsers [here](https://chrome.google.com/webstore/detail/tampermonkey-beta/gcalenpjmijncebpfijmoaglllgpjagf?hl=nl). and for firefox [here](https://addons.mozilla.org/nl/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) (Currently useless because Slice Tab only supports chromium atm).
 2. After that you will click on the tampermonkey extension icon on the top right of you browser. Next press "Create new script..." and paste in the code of the Slice Tab Mods. After that press ctrl + s at the same time to save. Now open a new tab and things should be different.
 
 ### Configuration
