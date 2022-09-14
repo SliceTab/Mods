@@ -7,4 +7,4 @@
 
 ### Configuration
 You can configure the Slice Tab Mods to your liking by editing the script you pasted at step 2 on the installation.<br>Its located here:
-![image](https://user-images.githubusercontent.com/113535664/190193453-4768455a-49df-4a99-ba51-8bf6c83e415f.png)
+<br>![image](https://user-images.githubusercontent.com/113535664/190193453-4768455a-49df-4a99-ba51-8bf6c83e415f.png)
