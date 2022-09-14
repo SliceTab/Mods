@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Slice Tab mods
-// @version      1.1
+// @version      1.0
 // @description  Slice Tab mods
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match        https://sli.ce.it/tab*
