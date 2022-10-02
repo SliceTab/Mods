@@ -6,5 +6,10 @@
 2. After that you will click on the tampermonkey extension icon on the top right of you browser. Next press "Create new script..." and paste in the code of the Slice Tab Mods. After that press ctrl + s at the same time to save. Now open a new tab and things should be different.
 
 ### Configuration
+
 You can configure the Slice Tab Mods to your liking by editing the script you pasted at step 2 on the installation. Its located here:
 <br>![image](https://user-images.githubusercontent.com/113535664/190193453-4768455a-49df-4a99-ba51-8bf6c83e415f.png)
+
+### Support
+
+You can always tag me in the slice discord server or send me a dm at NiqhtsFall#4177
