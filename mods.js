@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Slice Tab mods
-// @version      1.0
+// @version      1.2
 // @description  Slice Tab mods
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match        https://sli.ce.it/tab*
@@ -10,8 +10,9 @@
     // Enabled/Disable features //
         var replace_image = true // true = on // false = off //
         var searchbar = true // true = on // false = off //
-        var darkmode = true // true = on // false = off //
-        var hideSlices = true // true = on // false = off //
+        var darkmode = true
+        var hideSlices = true
+        var hideFavorites = true
     // Configuration //
         var new_image = "Your image" // Must be a link to a direct image! //
 // End of settings (Make sure to save!) //
@@ -26,6 +27,15 @@
 $(document).ready(function(){
     if(hideSlices) {
     $(".user-stats").css("display","none")
+    };
+    if(hideFavorites) {
+    const interval = setInterval(() => {
+    if($(".item").length > 0) {
+        $(".widgets .favorites .grid").css("display","none")
+        $(".widgets .favorites").css("display","none")
+        clearInterval(interval)
+    }
+    }, 100)
     };
     if (replace_image == true){
         $("img[class='js-wallpaper']").attr("src", new_image)
