@@ -12,4 +12,4 @@ You can configure the Slice Tab Mods to your liking by editing the script you pa
 
 ### Support
 
-You can always tag me in the slice discord server or send me a dm at NiqhtsFall#4177
+You can always tag me in the slice discord server or send me a dm at NightsFall#4177
