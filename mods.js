@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Slice Tab mods
-// @version      1.2
+// @version      2.0
+// @author       NightsFall
 // @description  Slice Tab mods
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match        https://tab.sli.ce.it/*
