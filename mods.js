@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Slice Tab mods
-// @version      2.0
+// @version      2.1
 // @author       NightsFall
 // @description  Slice Tab mods
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
@@ -47,12 +47,12 @@ $(document).ready(function(){
     if (darkmode == true) {
         // Slices
         $(".text-white").css("color", "black")
-        $("img[src='/static/media/sliceLogoLineBaseWhite.8119306a15b60d2319c77c3ccc6b4ba7.svg']").attr("src", "https://i.imgur.com/iBkZMuC.png")
+        $("img[src='/static/media/sliceLogoLineBaseWhite.8119306a15b60d2319c77c3ccc6b4ba7.svg']").attr("src", "https://raw.githubusercontent.com/SliceTab/Mods/main/images/slice_logo_black.png")
         // Search bar
         $(".bg-white").css("background-color", "black")
         $(".bg-white").css("color", "white")
         // Options
-        $("img[src='/static/media/settingAdjustLineBaseWhite.09146b837dfc4a489bf95bbaec349eca.svg']").attr("src", "https://i.imgur.com/NtpPEe8.png")
+        $("img[src='/static/media/settingAdjustLineBaseWhite.09146b837dfc4a489bf95bbaec349eca.svg']").attr("src", "https://raw.githubusercontent.com/SliceTab/Mods/main/images/options_black.png")
         addGlobalStyle('.widgets .favorites h1 { font-weight: 600; font-size: 18px; line-height: 28px; color: black; }')
     };
 });
