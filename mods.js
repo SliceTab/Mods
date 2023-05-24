@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Slice Tab mods
-// @version      2.1
+// @version      2.3
 // @author       NightsFall
 // @description  Slice Tab mods
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
@@ -15,7 +15,7 @@
         var hideSlices = false
         var hideFavorites = false
     // Configuration //
-        var new_image = "New image url here!" // Must be a link to a direct image! (Use .webp images to speed up loading times!) //
+        var new_image = "New background image url here!" // Must be a link to a direct image! (Use .webp images to speed up loading times!) //
 // End of settings (Make sure to save!) //
 
 
@@ -53,16 +53,5 @@ $(document).ready(function(){
         $(".bg-white").css("color", "white")
         // Options
         $("img[src='/static/media/settingAdjustLineBaseWhite.09146b837dfc4a489bf95bbaec349eca.svg']").attr("src", "https://raw.githubusercontent.com/SliceTab/Mods/main/images/options_black.webp")
-        addGlobalStyle('.widgets .favorites h1 { font-weight: 600; font-size: 18px; line-height: 28px; color: black; }')
     };
 });
-
-function addGlobalStyle(css) {
-    var head, style;
-    head = document.getElementsByTagName('head')[0];
-    if (!head) { return; }
-    style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = css;
-    head.appendChild(style);
-}
