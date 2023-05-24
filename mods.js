@@ -15,7 +15,7 @@
         var hideSlices = false
         var hideFavorites = false
     // Configuration //
-        var new_image = "New image url here!" // Must be a link to a direct image! //
+        var new_image = "New image url here!" // Must be a link to a direct image! (Use .webp images to speed up loading times! You can find an online tool to convert them here: https://cloudconvert.com/png-to-webp) //
 // End of settings (Make sure to save!) //
 
 
