@@ -5,6 +5,7 @@
 // @description  Slice Tab mods
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match        https://tab.sli.ce.it/*
+// @run-at       document-start
 // @grant        none
 // ==/UserScript==
 // Settings //
